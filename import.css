@@ -17,6 +17,6 @@
 	--header-bg: linear-gradient(rgba(40, 40, 40, 1), rgba(80, 80, 80, 0.97));
 	--progress-grad: linear-gradient(var(--highlight-color), var(--primary-color), var(--highlight-color));
 	--icon-font: 'Web Symbols';
-	--default-cursor: url(../../images/cursors/Arch-black.svgz), auto;
-	--pointer: url('../../images/cursors/3D_hand_cursor.svgz'), pointer;
+	--default-cursor: url('../../../images/cursors/Arch-black.svgz'), auto;
+	--pointer: url('../../../images/cursors/3D_hand_cursor.svgz'), pointer;
 }
