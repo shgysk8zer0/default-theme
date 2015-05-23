@@ -29,7 +29,7 @@
 	--progress-grad: linear-gradient(var(--highlight-color), var(--primary-color), var(--highlight-color));
 	/*==================== Set fonts here ====================*/
 	--header-font: 'PressStart';
-	--article-font: 'Comfortaa';
+	--article-font: 'Ubuntu';
 	--article-header-font: var(--header-font);
 	--icon-font: 'Web Symbols';
 	/*================ Set various icons here ================*/
