@@ -60,6 +60,7 @@
 	--close-icon: '\'';
 	--search-icon: 'L';
 	--attachmnent-icon: 'A';
+	--fullscreen-icon: '%';
 	/*================== Set cursors here ==================*/
 	--default-cursor: url('../../../images/cursors/Arch-black.svgz'), auto;
 	--pointer: url('../../../images/cursors/3D_hand_cursor.svgz'), pointer;
