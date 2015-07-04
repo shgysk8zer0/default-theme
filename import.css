@@ -92,9 +92,6 @@
 }
 @supports((display: flex) or (display: -webkit-flex) or (display: -ms-flex)) {
 	body {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
 		justify-content: center;
 		text-rendering: optimizeSpeed;
 		scroll-behavior: smooth;
