@@ -83,6 +83,7 @@
 	color: var(--default-color);
 	text-shadow: var(--shadow);
 	cursor: var(--default-cursor);
+	transition: background-color 3s;
 }
 @supports(background-blend-mode: initial) {
 	:root.CSSsupports {
