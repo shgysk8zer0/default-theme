@@ -73,20 +73,29 @@
 	/*This is the max z-index value. Others can use calc(var(--z-max) - n)*/
 	--z-max: 100;
 }
-:root {
-	background-color: black;
+:root::before {
+	content: '';
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: -1;
 	background-image: var(--main-bg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	will-change: transform;
+	transition: background-color 3s;
+}
+:root {
+	background-color: black;
 	color: var(--default-color);
 	text-shadow: var(--shadow);
 	cursor: var(--default-cursor);
-	transition: background-color 3s;
 }
 @supports(background-blend-mode: initial) {
-	:root.CSSsupports {
+	:root.CSSsupports::before {
 		background-color: var(--primary-color);
 		background-blend-mode: multiply;
 	}
